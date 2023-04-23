@@ -5,7 +5,8 @@ function parimp(n) {
     return "impar!"
   }
 } 
-const result = parimp(11 - 1)
+const result = parimp(11*2)
+console.log(result)
 
 
 function soma(n1, n2){
@@ -19,7 +20,7 @@ const v = (x) => {
   return x * 5
 }
 
-
+// 5! = 5 X 4 X 3 X 2 X 1
 function fatorial(n) {
   let fat = 1
 
